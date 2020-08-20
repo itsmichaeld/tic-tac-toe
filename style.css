@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Start page styles */
+
+.container-start {
+  height: 100vh;
+  display: flex;
+  /* display: none; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #404040;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.name-input {
+  margin: 16vh 0;
+}
+
+label {
+  color: white;
+}
+
+.start {
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  border-radius: 0.6rem;
+}
+
+.start:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+/* Main game page style */
+.container-main {
+  height: 100vh;
+  /* display: grid; */
+  display: none;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #404040;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 3vh;
+}
+
+span {
+  color: white;
+  margin-bottom: 3vh;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  height: 30vh;
+  width: 30vh;
+}
+
+.square {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: white;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+span {
+  font-size: 1.6rem;
+}
+
+.reset {
+  margin-top: 3vh;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  border-radius: 0.6rem;
+}

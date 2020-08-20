@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Welcome page -->
+    <div class="container-start">
+      <h1>Tic-Tac-Toe</h1>
+      <div class="name-input">
+        <label for="player1">Player 1</label>
+        <input type="text" id="player1" name="player1" placeholder="Name" />
+        <label for="player2">Player 2</label>
+        <input type="text" id="player2" name="player2" placeholder="Name" />
+      </div>
+      <button class="start">Start game</button>
+    </div>
+    <!-- Main Game Page -->
+    <div class="container-main">
+      <h2>Tic-Tac-Toe</h2>
+      <span>Player 1's turn</span>
+      <div class="game-grid">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <button class="reset">Reset game</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
